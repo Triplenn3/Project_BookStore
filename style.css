@@ -125,6 +125,9 @@ header .fa-bars {
 .home .content h3 {
   font-size: 6rem;
   color: #333;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
 }
 
 .home .content span {
@@ -473,8 +476,9 @@ h3 {
     text-align: center;
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
   }
-  .home .content h3 {
-    font-size: 5rem;
+   .home .content h3 {
+    font-size: 4rem;
+    line-height: 1.2;
   }
 
   .home .content span {
